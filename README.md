@@ -1,16 +1,23 @@
-## Hi there 👋
+# Olá, eu sou o Artur 👋
 
-<!--
-**arturssans/arturssans** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Profissional de **Infraestrutura de TI** com 8 anos de experiência em suporte e endpoint,
+hoje em transição para **IA aplicada e automação**.
+Formado em Análise e Desenvolvimento de Sistemas (FAM, 2026).
 
-Here are some ideas to get you started:
+### 🔧 No dia a dia
+- Microsoft Intune, Entra ID, Active Directory e licenciamento Microsoft 365
+- Gestão de endpoints e compliance
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🤖 Construindo agora
+- **Agente de Service Desk com IA**: integração GLPI + Microsoft Teams, com painel web próprio
+- **Monitor de descontos de certificação**: scraper em Python/Docker com alertas no Telegram
+- Automações com n8n
+
+### 📚 Estudando
+- Microsoft AI-103 (prova prevista para dez/2026)
+
+### 🛠️ Stack
+Python · Docker · PowerShell · n8n · HTML/CSS · Azure / Microsoft Foundry
+
+### 📫 Contato
+[LinkedIn](https://www.linkedin.com/in/artur-silva-santos/)

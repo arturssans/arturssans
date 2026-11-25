@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Artur Santos — Infraestrutura de TI em transição para IA e Automação">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#121a33"/>
+      <stop offset="1" stop-color="#1b1240"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#2ee6a6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.35">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <style>
+      .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .f { opacity: 0; animation: ciclo 12s infinite; }
+      .f2 { animation-delay: 4s; } .f3 { animation-delay: 8s; }
+      @keyframes ciclo { 0% {opacity:0} 3% {opacity:1} 30% {opacity:1} 33% {opacity:0} 100% {opacity:0} }
+      .cur { animation: pisca 1s steps(1) infinite; }
+      @keyframes pisca { 50% { opacity: 0 } }
+      .bob { animation: flutua 4s ease-in-out infinite; }
+      @keyframes flutua { 50% { transform: translateY(-6px) } }
+      .pulse { animation: pulso 2.4s ease-in-out infinite; }
+      @keyframes pulso { 50% { opacity: .35 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+  <rect x="0" y="312" width="1200" height="8" fill="url(#acc)"/>
+
+  <!-- texto -->
+  <text x="64" y="96" class="t" font-size="20" fill="#9aa6c7" letter-spacing="3">OLÁ, EU SOU</text>
+  <text x="62" y="160" class="t" font-size="64" font-weight="700" fill="#ffffff">Artur Santos</text>
+  <text x="64" y="204" class="t" font-size="24" fill="#c9d2ee">Infraestrutura de TI <tspan fill="url(#acc)" font-weight="700">→</tspan> IA aplicada &amp; Automação</text>
+
+  <g class="mono" font-size="19" fill="#2ee6a6">
+    <text x="64" y="256">$</text>
+    <text x="88" y="256" class="f">construindo agentes de IA para Service Desk <tspan class="cur">▋</tspan></text>
+    <text x="88" y="256" class="f f2">automatizando Intune, Entra ID e Microsoft 365 <tspan class="cur">▋</tspan></text>
+    <text x="88" y="256" class="f f3">estudando para a certificação Microsoft AI-103 <tspan class="cur">▋</tspan></text>
+  </g>
+
+  <!-- robô em pixel art -->
+  <g transform="translate(940 60)"><g class="bob">
+    <g transform="scale(10)" shape-rendering="crispEdges">
+      <rect x="9" y="0" width="2" height="2" fill="#2ee6a6"/>
+      <rect x="9.5" y="2" width="1" height="2" fill="#9aa6c7"/>
+      <rect x="3" y="4" width="14" height="10" fill="#e8ecff"/>
+      <rect x="4" y="5" width="12" height="8" fill="#1a2240"/>
+      <rect x="6" y="7" width="2" height="3" fill="#2ee6a6" class="pulse"/>
+      <rect x="12" y="7" width="2" height="3" fill="#2ee6a6" class="pulse"/>
+      <rect x="8" y="11" width="4" height="1" fill="#7c5cff"/>
+      <rect x="1" y="7" width="2" height="4" fill="#7c5cff"/>
+      <rect x="17" y="7" width="2" height="4" fill="#7c5cff"/>
+      <rect x="5" y="15" width="10" height="5" fill="#c9d2ee"/>
+      <rect x="7" y="16" width="6" height="3" fill="#7c5cff"/>
+      <rect x="9" y="17" width="2" height="1" fill="#2ee6a6"/>
+    </g>
+  </g></g>
+  <g class="mono" font-size="13" fill="#9aa6c7">
+    <text x="1040" y="292" text-anchor="middle">Intune · Entra ID · M365 · Claude</text>
+  </g>
+</svg>

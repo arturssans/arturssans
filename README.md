@@ -52,6 +52,17 @@
       <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" alt="Telegram"/>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🩺 <a href="https://github.com/arturssans/laudo-diagnostico">Laudo de Diagnóstico</a></h3>
+      <p>Roda direto do pendrive, sem instalar nada, e gera um laudo técnico do computador Windows: discos, bateria, memória, drivers, rede, eventos de erro e softwares. Sai em PDF para anexar ao chamado e em HTML com gráficos interativos, com achados e sugestões de solução por tópico.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/PowerShell-5391FE?logoColor=white" alt="PowerShell"/>
+      <img src="https://img.shields.io/badge/Tkinter-3776AB?logoColor=white" alt="Tkinter"/>
+      <img src="https://img.shields.io/badge/PDF%20%2B%20HTML-E34F26?logo=html5&logoColor=white" alt="PDF e HTML"/>
+      <img src="https://img.shields.io/badge/PyInstaller-1F4E79?logoColor=white" alt="PyInstaller"/>
+    </td>
+  </tr>
 </table>
 
 ## 🛠️ Tecnologias
